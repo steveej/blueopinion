@@ -1,0 +1,11 @@
+[package]
+name = "app"
+edition = "2021"
+version.workspace = true
+
+[dependencies]
+lib = { path = "../lib" }
+
+anyhow = { workspace = true }
+log = { workspace = true }
+env_logger = { workspace = true }
