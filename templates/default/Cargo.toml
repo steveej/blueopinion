@@ -3,9 +3,7 @@ resolver = "2"
 package.version = "0.1.0"
 metadata.crane.name = "blueprint-universe"
 
-members = [
-    "rust/*",
-]
+members = ["rust/*"]
 
 [workspace.dependencies]
 anyhow = "1.0"

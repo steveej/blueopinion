@@ -24,6 +24,8 @@ let
 
       shfmt.enable = true;
 
+      taplo.enable = true;
+
       prettier.enable = true;
     } // pkgs.lib.optionalAttrs (pkgs.system != "riscv64-linux") { shellcheck.enable = true; };
 
@@ -31,7 +33,7 @@ let
       global.excludes = [
         "LICENSE"
         # unsupported extensions
-        "*.{gif,png,svg,tape,mts,lock,mod,sum,toml,env,envrc,gitignore}"
+        "*.{gif,png,svg,tape,mts,lock,mod,sum,env,envrc,gitignore}"
       ];
 
       formatter = {
