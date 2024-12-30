@@ -11,7 +11,7 @@ result-*
 target/
 
 # nixago: ignore-linked-files
-/treefmt.toml
+treefmt.toml
 
 # nats
 rust/*/tmp
