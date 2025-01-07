@@ -11,6 +11,7 @@ result-*
 target/
 
 # nixago: ignore-linked-files
+/treefmt.toml
 treefmt.toml
 
 # nats
@@ -21,4 +22,3 @@ rust/*/*/leaf_server.conf
 rust/*/*/resolver.conf
 leaf_server.conf
 .local
-

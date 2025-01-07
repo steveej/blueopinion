@@ -34,6 +34,9 @@ let
         "LICENSE"
         # unsupported extensions
         "*.{gif,png,svg,tape,mts,lock,mod,sum,env,envrc,gitignore}"
+
+        # link to a read-only store-path
+        "treefmt.toml"
       ];
 
       formatter = {
