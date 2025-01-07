@@ -1,3 +1,6 @@
+# generic
+.local
+
 # direnv
 .direnv/
 .env
@@ -9,16 +12,8 @@ result-*
 
 # rust
 target/
+.cargo/
 
 # nixago: ignore-linked-files
-/treefmt.toml
+**/treefmt.toml
 treefmt.toml
-
-# nats
-rust/*/tmp
-rust/*/jwt
-rust/*/*/test_leaf_server.conf
-rust/*/*/leaf_server.conf
-rust/*/*/resolver.conf
-leaf_server.conf
-.local
