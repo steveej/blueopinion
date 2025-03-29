@@ -18,7 +18,10 @@ let
       };
       statix.enable = true;
 
-      rustfmt.enable = true;
+      rustfmt = {
+        enable = true;
+        edition = "2024";
+      };
 
       gofmt.enable = true;
 
@@ -27,6 +30,10 @@ let
       taplo.enable = true;
 
       prettier.enable = true;
+
+      formatjson5.enable = true;
+
+      just.enable = true;
     } // pkgs.lib.optionalAttrs (pkgs.system != "riscv64-linux") { shellcheck.enable = true; };
 
     settings = {
